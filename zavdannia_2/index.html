@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main_box">
+        <form action="" name="f1" class="f1">
+            <p>First name</p>
+            <input type="text" name="name" class="iput_name" placeholder="type_here">
+            <p>Second name</p>
+            <input type="text" name="surname" class="iput_name" placeholder="type_here">
+            <p>Email address</p>
+            <input type="text" name="mail" class="iput_name" placeholder="type_here">
+            <div>
+                <input type="radio" name="sex" id="man" value="men">man
+                <input type="radio" name="sex" id="woman" value="woman">wooman
+            </div>
+            <div class="select">
+                <select name="postion" id="">
+                    <option value="choose" disabled selected>choose</option>
+                    <option value="frontend">frontend</option>
+                    <option value="qaqc">qa/qc</option>
+                    <option value="back-end">back-end</option>
+                </select>
+            </div>
+            <label for="agree" class="checkbox_label">
+                <input onclick="signUp()" type="checkbox" name="agree" class="checkbox">I agree all
+            </label>
+            
+            <input type="button" value="Sing Up" class="button" name="ok" id="ok" disabled>
+        </div>
+        </form>
+        
+
+    <div class="second_block">
+        <img src="img/boy.png" class="man_woman__photo">
+        <p class="all_info_2 name_2"></p>
+        <p class="all_info_2 surname_2"></p>
+        <p class="all_info_2 email_2"></p>
+        <p class="all_info_2 position_2"></p>
+        <input onclick="BackOf()" type="button" class="second_button" value="Back Of">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
